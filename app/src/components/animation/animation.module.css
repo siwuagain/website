@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'pixel'; 
+  src: url('../../assets/font/MinecraftRegular-Bmg3.otf') format('opentype'); /* Path to your .otf font file */
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'pixel'; 
+  src: url('../../assets/font/MinecraftBold-nMK1.otf') format('opentype'); /* Path to your .otf font file */
+  font-weight: bold;
+}
+.customText {
+  font-family: 'pixel', sans-serif;
+  position: relative;
+}
+
+@keyframes rippleAnimation {
+  to {
+    transform: scale(4); /* Scale up to create ripple effect */
+    opacity: 0; /* Fade out */
+  }
+}
+
+.fade_in {
+  opacity: 0; /* Initially set the opacity to 0 */
+  animation: fadeInAnimation 2s ease-in forwards; /* Animation properties */
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeInAnimation {
+  /* Define the animation keyframes */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animation_container {
+  position: relative;
+  overflow: hidden;
+}
+.gif {
+  width: 100px; /* Set the width of the container */
+  height: 100px; /* Set the height of the container */
+  overflow: hidden; /* Ensure that the animated GIF doesn't overflow */
+  background-image: url('../../assets/fish_animation.gif'); /* Replace with your GIF path */
+  background-size:cover; /* Ensure the height of the GIF matches the container */
+  animation: moveGif 2s linear forwards; /* Animation properties */
+  position: absolute;
+}
+
+@keyframes moveGif {
+  /* Define animation keyframes for moving the background */
+  0% {
+    transform: translateX(calc(20cqw));
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateX(calc(50cqw)); /* End position */
+    opacity: 0;
+  }
+  
+}
+
+
+
