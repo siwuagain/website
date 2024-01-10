@@ -1,4 +1,4 @@
-
+import styles from './header.module.css';
 const navigation = [
   { name: 'Simon Wu', href: '#'},
   { name: 'Projects', href: '#'},
@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <div className="py-6 px-32 flex flex-1 items-center justify-between sm:items-stretch sm:justify-start bg-gray-800 sticky top-0">
+    <div className={`px-25vw py-6 flex flex-1 items-center justify-between sm:items-stretch sm:justify-start bg-gray-800 sticky top-0 `}>
       <div className="flex flex-1 space-x-4 justify-between items-center">
         <div>
           {navigation.map((item) => (
