@@ -31,7 +31,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  /* background-color: #2b3138; */
+  background-color: #2b3138; 
 }
 
 h1 {

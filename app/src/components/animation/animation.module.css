@@ -52,7 +52,7 @@
 @keyframes moveGif {
   /* Define animation keyframes for moving the background */
   0% {
-    transform: translateX(calc(20cqw));
+    transform: translateX(calc(0cqw));
   }
 
   80% {
@@ -60,7 +60,7 @@
   }
 
   100% {
-    transform: translateX(calc(50cqw)); /* End position */
+    transform: translateX(calc(40cqw)); /* End position */
     opacity: 0;
   }
   
