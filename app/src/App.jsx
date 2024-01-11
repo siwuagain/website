@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import * as Components from './components';
 function App() {
@@ -10,10 +8,12 @@ function App() {
     <>
     <div className='header'>
       <Components.Header/>
-      
     </div>
     <div>
       <Components.Intro/>
+    </div>
+    <div>
+      <Components.Projects/>
     </div>
     </>
   )

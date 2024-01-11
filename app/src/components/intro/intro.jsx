@@ -4,7 +4,7 @@ import linkedInSvg from "../../assets/linkedin.svg"
 import emailSvg from "../../assets/email.svg"
 export default function Intro() {
   return (
-    <div className="px- flex flex-col mt-32 px-25vw">
+    <div className="flex flex-col mt-32 px-25vw">
       <Animation/>
       <div className="flex justify-center mt-16 space-x-8">
         <a href="https://github.com/siwuagain" target="_blank">
