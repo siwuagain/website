@@ -23,7 +23,7 @@ export default function Intro() {
           inspired me to choose this field of study is its significant 
           impact in shaping and evolving how we communicate and 
           share information. I am very eager to expand my knowledge and technical
-          skillset through my studies, projects, and work experiences. Let's connect!
+          skillset through my studies, projects, and work experience. Let's connect!
         </div>
       </div>
     </div>
