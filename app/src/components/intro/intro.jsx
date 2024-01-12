@@ -1,7 +1,7 @@
 import Animation from "../animation/animation"
-import githubSvg from "../../assets/github.svg"
-import linkedInSvg from "../../assets/linkedin.svg"
-import emailSvg from "../../assets/email.svg"
+import githubSvg from "../../assets/icons/github.svg"
+import linkedInSvg from "../../assets/icons/linkedin.svg"
+import emailSvg from "../../assets/icons/email.svg"
 export default function Intro() {
   return (
     <div className="flex flex-col mt-32 px-25vw">
