@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       spacing: {
-        '25vw': '25vw', // p-80% - doesn't work
+        '18vw': '18vw', // p-80% - doesn't work
       }
     },
   },
