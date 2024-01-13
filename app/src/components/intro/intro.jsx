@@ -1,7 +1,7 @@
 import Animation from "../animation/animation"
-import githubSvg from "../../../public/icons/github.svg"
-import linkedInSvg from "../../../public/icons/linkedin.svg"
-import emailSvg from "../../../public/icons/email.svg"
+import githubSvg from "../../assets/icons/github.svg"
+import linkedInSvg from "../../assets/icons/linkedin.svg"
+import emailSvg from "../../assets/icons/email.svg"
 
 const socials = [
   {href: "https://github.com/siwuagain", src: githubSvg},

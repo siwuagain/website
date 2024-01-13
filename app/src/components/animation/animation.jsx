@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './animation.module.css'; // Import your CSS file
-import '../../../public/fonts.css'
+import '../../assets/fonts.css'
 const Animation = () => {
 
   return (

@@ -1,5 +1,5 @@
-'../../../public/fonts.css'
-import pickAxe from '../../../public/animations/pickaxe.gif'
+import '../../assets/fonts.css'
+import pickAxe from '../../assets/animations/pickaxe.gif'
 const languages = ["Java", "JavaScript", "TypeScript", "R", "Python", "Bash", "C/C++"];
 const frameworks = ["Angular", "React", "Ionic", "Vue", "Flask", "Tailwind", "..."];
 const categories = [

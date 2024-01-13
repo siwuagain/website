@@ -24,7 +24,7 @@
   width: 100px; 
   height: 100px; 
   overflow: hidden; 
-  background-image: url('../../../public/animations/fish_animation.gif'); 
+  background-image: url('../../assets/animations/fish_animation.gif'); 
   background-size:cover; 
   animation: moveGif 2s linear forwards; 
   position: absolute;
