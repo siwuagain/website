@@ -1,13 +1,4 @@
-@font-face {
-  font-family: 'pixel'; 
-  src: url('../../assets/font/MinecraftRegular-Bmg3.otf') format('opentype'); /* Path to your .otf font file */
-  font-weight: normal;
-}
-@font-face {
-  font-family: 'pixel'; 
-  src: url('../../assets/font/MinecraftBold-nMK1.otf') format('opentype'); /* Path to your .otf font file */
-  font-weight: bold;
-}
+
 .customText {
   font-family: 'pixel', sans-serif;
   position: relative;

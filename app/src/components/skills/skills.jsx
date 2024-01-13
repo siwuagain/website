@@ -1,3 +1,4 @@
+import '../../assets/fonts.css'
 const languages = ["Java", "JavaScript", "TypeScript", "R", "Python", "Bash", "C/C++"];
 const frameworks = ["Angular", "React", "Ionic", "Vue", "Flask", "Tailwind", "..."];
 const categories = [
@@ -8,11 +9,11 @@ const categories = [
 export default function Skills() {
   return (
     <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16" id="skills">Skills</h1>
+      <h1 className="mb-16" id="skills" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>Skills</h1>
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8">
         {categories.map((category) => ( 
           <div key={category.title} className="flex flex-col space-y-2 items-center mb-8 w-1/3">
-            <h2 className="text-amber-100 text-3xl mb-4">{category.title}</h2>
+            <h2 className="text-amber-100 text-3xl mb-4" style={{ fontFamily: 'pixel', fontWeight: 'normal'}}>{category.title} </h2>
             {category.items.map((item) => (
               <div key={item} className="text-xl text-gray-300 w-full rounded-md py-4 shadow-md">
                 {item}

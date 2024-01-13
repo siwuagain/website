@@ -33,7 +33,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16" id="projects">
+      <h1 className="mb-16" id="projects" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>
         Projects
       </h1>
       <div key={projects} className="flex flex-col"> 
@@ -41,7 +41,7 @@ export default function Projects() {
           <a href={item.href} target="_blank">
             <div className="hover:scale-105 transition duration-200 flex md:flex-row flex-col shadow-2xl mb-12 p-8 rounded-lg space-x-4 items-center">
               <div className="flex flex-col text-left w-3/5">
-                <div className='text-3xl mb-4 text-amber-100'>{item.name}</div>
+                <div className='text-3xl mb-4 text-amber-100' style={{ fontFamily: 'pixel'}}>{item.name}</div>
                 <div className='text-xl mb-4 text-gray-300'>{item.description}</div>
                 <div className='text-lg text-gray-400'>{item.tools}</div>
               </div>

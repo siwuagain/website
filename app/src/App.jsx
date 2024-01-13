@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className='header'>
+    <div className='header sticky top-0 z-40 opacity-95' >
       <Components.Header/>
     </div>
     <div>

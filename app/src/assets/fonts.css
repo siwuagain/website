@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'pixel'; 
+  src: url('./font/MinecraftRegular-Bmg3.otf') format('opentype'); /* Path to your .otf font file */
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'pixel'; 
+  src: url('./font/MinecraftBold-nMK1.otf') format('opentype'); /* Path to your .otf font file */
+  font-weight: bold;
+}
