@@ -17,7 +17,7 @@ const projects = [
   },
   { name: 'Zen Bot', 
     href: 'https://github.com/deemo-o/Zen', 
-    description: "Multi-functional bot used for popular VoIP social platform Discord tailored for a chatroom for people to interact with peers sharing common interests."
+    description: "Multi-functional bot used for popular VoIP social platform Discord, tailored for a chatroom for people to interact with peers sharing common interests."
     ,tools : "Python, SQLite" 
     ,img: Zen
   },
@@ -36,7 +36,7 @@ export default function Projects() {
       <h1 className="mb-16">
         Projects
       </h1>
-      <div className="flex flex-col"> 
+      <div key={projects} className="flex flex-col"> 
         {projects.map((item) => (
           <a href={item.href} target="_blank">
             <div className="hover:scale-105 transition duration-200 flex flex-row shadow-2xl mb-12 space-x-8 p-8 rounded-lg">
