@@ -8,9 +8,9 @@ const categories = [
 export default function Skills() {
   return (
     <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16">Skills</h1>
-      <div className="flex flex-col md:flex-row items-center justify-center space-x-8">
-        {categories.map((category) => (
+      <h1 className="mb-16" id="skills">Skills</h1>
+      <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8">
+        {categories.map((category) => ( 
           <div key={category.title} className="flex flex-col space-y-2 items-center mb-8 w-1/3">
             <h2 className="text-amber-100 text-3xl mb-4">{category.title}</h2>
             {category.items.map((item) => (

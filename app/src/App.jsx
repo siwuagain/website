@@ -15,6 +15,9 @@ function App() {
     <div>
       <Components.Projects/>
     </div>
+    <div>
+      <Components.Skills />
+    </div>
     </>
   )
 }

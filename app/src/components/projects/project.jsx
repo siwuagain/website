@@ -33,7 +33,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16">
+      <h1 className="mb-16" id="projects">
         Projects
       </h1>
       <div key={projects} className="flex flex-col"> 
