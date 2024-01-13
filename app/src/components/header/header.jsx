@@ -1,5 +1,5 @@
 import styles from './header.module.css';
-'../../../public/fonts.css'
+import '../../../public/fonts.css'
 const navigation = [
   { name: 'Simon Wu', href: '#SW'},
   { name: 'Projects', href: '#projects'},
