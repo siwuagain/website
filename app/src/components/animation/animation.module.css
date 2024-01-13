@@ -32,7 +32,7 @@
 
 @keyframes moveGif {
   0% {
-    transform: translateX(calc(0cqw));
+    transform: translateX(calc(15cqw));
   }
 
   80% {
