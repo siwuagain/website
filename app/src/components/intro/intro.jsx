@@ -11,9 +11,9 @@ const socials = [
 
 export default function Intro() {
   return (
-    <div className="flex flex-col mt-32 px-18vw">
+    <div className="flex flex-col mt-40 px-18vw">
       <Animation/>
-      <div key="socials" className="flex justify-center mt-16 space-x-8">
+      <div key="socials" className="flex justify-center mt-20 space-x-8">
         {socials.map((item) => (
           <a href={item.href} target="_blank" className="hover:-translate-y-1 transition duration-300">
             <img src={item.src} />
@@ -21,7 +21,7 @@ export default function Intro() {
           ))}
       </div>
       <div>
-        <div className="text-gray-300 text-2xl mt-16 text-left">
+        <div className="text-gray-300 text-2xl mt-20 text-left">
           I currently study Computer Science at McGill University. What
           inspired me to choose this field of study is its significant 
           impact in shaping and evolving how we communicate and 

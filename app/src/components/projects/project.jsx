@@ -2,6 +2,7 @@ import NutroPNG from '../../assets/projects/nutropng.png'
 import RDD from '../../assets/projects/rdd.png'
 import Zen from '../../assets/projects/zen.png'
 import DrooVe from '../../assets/projects/droove.png'
+import BookGif from '../../assets/animations/book.gif'
 const projects = [
   { name: 'NutroPNG', 
     href: 'https://github.com/siwuagain/mchacks', 
@@ -32,10 +33,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16" id="projects" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>
-        Projects
-      </h1>
+    <div className="text-center mt-40 px-18vw text-gray-300">
+      <div className='flex flex-col justify-center'>
+        <img src={BookGif} className='size-16 self-center'/>
+        <h1 className="mb-16" id="projects" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>
+          Projects
+        </h1>
+      </div>
       <div key={projects} className="flex flex-col"> 
         {projects.map((item) => (
           <a href={item.href} target="_blank">

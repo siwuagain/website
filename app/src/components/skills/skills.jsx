@@ -1,4 +1,5 @@
 import '../../assets/fonts.css'
+import pickAxe from '../../assets/animations/pickaxe.gif'
 const languages = ["Java", "JavaScript", "TypeScript", "R", "Python", "Bash", "C/C++"];
 const frameworks = ["Angular", "React", "Ionic", "Vue", "Flask", "Tailwind", "..."];
 const categories = [
@@ -8,8 +9,12 @@ const categories = [
 
 export default function Skills() {
   return (
-    <div className="text-center mt-32 px-18vw text-gray-300">
-      <h1 className="mb-16" id="skills" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>Skills</h1>
+    <div className="text-center mt-40 px-18vw text-gray-300 mb-40">
+      <div className='flex flex-col justify-center'>
+        <img src={pickAxe} className='size-16 self-center'/>
+        <h1 className="mb-16" id="skills" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>Skills</h1>
+      </div>
+      
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8">
         {categories.map((category) => ( 
           <div key={category.title} className="flex flex-col space-y-2 items-center mb-8 w-1/3">

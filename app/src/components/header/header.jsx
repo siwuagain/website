@@ -13,7 +13,7 @@ function classNames(...classes) {
 export default function Header() {
   return (
     
-    <div className={`px-18vw py-6 flex flex-1 items-center justify-between sm:items-stretch sm:justify-start bg-gray-800`}>
+    <div className={`px-18vw py-6 flex flex-1 items-center justify-between sm:items-stretch sm:justify-start bg-gray-800 h-24`}>
       <div className="flex flex-1 space-x-4 justify-between items-center" style={{ fontFamily: 'pixel', fontWeight: 'bold'}}>
         <div className='hidden md:inline' >
           {navigation.map((item) => (
