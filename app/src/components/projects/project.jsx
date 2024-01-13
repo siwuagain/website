@@ -1,8 +1,8 @@
-import NutroPNG from '../../assets/projects/nutropng.png'
-import RDD from '../../assets/projects/rdd.png'
-import Zen from '../../assets/projects/zen.png'
-import DrooVe from '../../assets/projects/droove.png'
-import BookGif from '../../assets/animations/book.gif'
+import NutroPNG from '../../../public/projects/nutropng.png'
+import RDD from '../../../public/projects/rdd.png'
+import Zen from '../../../public/projects/zen.png'
+import DrooVe from '../../../public/projects/droove.png'
+import BookGif from '../../../public/animations/book.gif'
 const projects = [
   { name: 'NutroPNG', 
     href: 'https://github.com/siwuagain/mchacks', 
