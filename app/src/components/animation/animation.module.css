@@ -1,24 +1,14 @@
-
 .customText {
-  font-family: 'pixel', sans-serif;
   position: relative;
 }
 
-@keyframes rippleAnimation {
-  to {
-    transform: scale(4); /* Scale up to create ripple effect */
-    opacity: 0; /* Fade out */
-  }
-}
-
 .fade_in {
-  opacity: 0; /* Initially set the opacity to 0 */
-  animation: fadeInAnimation 2s ease-in forwards; /* Animation properties */
+  opacity: 0; 
+  animation: fadeInAnimation 2s ease-in forwards;
   animation-delay: 2.5s;
 }
 
 @keyframes fadeInAnimation {
-  /* Define the animation keyframes */
   from {
     opacity: 0;
   }
@@ -31,17 +21,16 @@
   overflow: hidden;
 }
 .gif {
-  width: 100px; /* Set the width of the container */
-  height: 100px; /* Set the height of the container */
-  overflow: hidden; /* Ensure that the animated GIF doesn't overflow */
-  background-image: url('../../assets/fish_animation.gif'); /* Replace with your GIF path */
-  background-size:cover; /* Ensure the height of the GIF matches the container */
-  animation: moveGif 2s linear forwards; /* Animation properties */
+  width: 100px; 
+  height: 100px; 
+  overflow: hidden; 
+  background-image: url('../../assets/fish_animation.gif'); 
+  background-size:cover; 
+  animation: moveGif 2s linear forwards; 
   position: absolute;
 }
 
 @keyframes moveGif {
-  /* Define animation keyframes for moving the background */
   0% {
     transform: translateX(calc(0cqw));
   }
@@ -51,7 +40,7 @@
   }
 
   100% {
-    transform: translateX(calc(40cqw)); /* End position */
+    transform: translateX(calc(40cqw)); 
     opacity: 0;
   }
   
