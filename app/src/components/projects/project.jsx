@@ -39,17 +39,16 @@ export default function Projects() {
       <div key={projects} className="flex flex-col"> 
         {projects.map((item) => (
           <a href={item.href} target="_blank">
-            <div className="hover:scale-105 transition duration-200 flex flex-row shadow-2xl mb-12 space-x-8 p-8 rounded-lg">
-              <div className="flex flex-col text-left">
+            <div className="hover:scale-105 transition duration-200 flex md:flex-row flex-col shadow-2xl mb-12 p-8 rounded-lg space-x-4 items-center">
+              <div className="flex flex-col text-left w-3/5">
                 <div className='text-3xl mb-4 text-amber-100'>{item.name}</div>
                 <div className='text-xl mb-4 text-gray-300'>{item.description}</div>
                 <div className='text-lg text-gray-400'>{item.tools}</div>
               </div>
-              <div className="flex flex-col">
-                <div className='box-content h-32 w-48 object-cover'>
-                  <img className='rounded-lg '  src={item.img} />
-                </div>
+              <div className='w-2/5 sm:mt-2'>
+                <img className='rounded-lg object-fill'  src={item.img} />
               </div>
+              
             </div>
           </a>
         ))}
