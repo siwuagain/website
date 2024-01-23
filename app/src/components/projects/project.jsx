@@ -3,7 +3,16 @@ import RDD from '../../assets/projects/rdd.png'
 import Zen from '../../assets/projects/zen.png'
 import DrooVe from '../../assets/projects/droove.png'
 import BookGif from '../../assets/animations/book.gif'
+import MyAEye from '../../assets/projects/myaeye.gif'
 const projects = [
+
+  {
+    name: 'My A-Eye', 
+    href: 'https://github.com/LawrenceLiang02/My-A-Eye-Frontend',  
+    description: "Virtual assistant capable of conversating on the external physical environment through a camera to aid people with visual impairments in navigating and better understanding their surroundings."
+    ,tools: "React, Tailwind, Flask, Whisper API, OpenAI"
+    ,img: MyAEye
+  },
   { name: 'NutroPNG', 
     href: 'https://github.com/siwuagain/mchacks', 
     description: "Web application that displays nutritional information of food using Vision AI's pre-trained ML models. The application can be paired with a camera. Awarded '3rd Best Project' at McHacks 10"
@@ -27,7 +36,7 @@ const projects = [
     description: "Itinerary optimization system for truck drivers that lists recommended rest stops based on starting location, destination, and time slept. Awarded 'Best Beginner Project' at CodeJam 12."
     ,tools: "Node.js, TailwindCSS"
     ,img: DrooVe
-  }
+  },
 ]
 
 
