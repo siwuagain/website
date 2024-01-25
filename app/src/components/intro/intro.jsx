@@ -2,6 +2,7 @@ import Animation from "../animation/animation"
 import githubSvg from "../../assets/icons/github.svg"
 import linkedInSvg from "../../assets/icons/linkedin.svg"
 import emailSvg from "../../assets/icons/email.svg"
+import boy from "../../assets/icons/boy.png"
 
 const socials = [
   {href: "https://github.com/siwuagain", src: githubSvg},
@@ -13,21 +14,23 @@ export default function Intro() {
   return (
     <div className="flex flex-col mt-40 px-18vw">
       <Animation/>
-      <div key="socials" className="flex justify-center mt-20 space-x-8">
+      <div key="socials" className="flex justify-center mt-40 space-x-8">
         {socials.map((item) => (
           <a href={item.href} target="_blank" className="hover:-translate-y-1 transition duration-300">
             <img src={item.src} />
           </a>
           ))}
       </div>
-      <div>
-        <div className="text-gray-300 text-2xl mt-20 text-left">
-          I currently study Computer Science at McGill University. What
-          inspired me to choose this field of study is its significant 
-          impact in shaping and evolving how we communicate and 
-          share information. As such, I am interested in web and software development. 
-          I am always looking to expand my knowledge and technical
-          skillset through my studies, projects, and work experience. Let's connect!
+      <div className="flex flex-row items-center mt-40 justify-between">
+        <div className="text-gray-300 text-xl text-left">
+          Hi! I'm Simon, currently studying Computer Science at McGill University. In my free time, 
+          I enjoy building projects to discover and learn Web and Software Development. I am most
+          experienced with JavaScript/TypeScript, and also well versed with Java, C, and Python. Some of
+          my hobbies include the guitar, running, and weightlifting. Let's connect!
+
+        </div>
+        <div >
+          <img className="rounded-lg size-44 shadow-inner" src={boy}></img>
         </div>
       </div>
     </div>
