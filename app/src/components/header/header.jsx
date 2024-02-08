@@ -1,6 +1,6 @@
 import styles from './header.module.css';
 import '../../assets/fonts.css'
-import Resume from '../../assets/resume.pdf'
+import Resume from '../../assets/Resume.pdf'
 const navigation = [
   { name: 'Simon Wu', href: '#SW'},
   { name: 'Projects', href: '#projects'},
