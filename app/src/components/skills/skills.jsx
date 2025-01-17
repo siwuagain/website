@@ -1,7 +1,7 @@
 import '../../assets/fonts.css'
 import BookGif from '../../assets/animations/book.gif'
-const languages = ["Java", "JavaScript", "TypeScript", "R", "Python", "Bash", "C/C++"];
-const frameworks = ["Angular", "React", "Ionic", "Vue", "Flask", "Tailwind", "..."];
+const languages = ["Java", "JavaScript", "TypeScript", "Python"];
+const frameworks = ["Angular", "React", "Ionic", "Vue", "Flask", "Tailwind"];
 const categories = [
   { title: "Languages", items: languages },
   { title: "Frameworks", items: frameworks },
