@@ -28,7 +28,7 @@ export default function Intro() {
         <div className="text-gray-300 text-2xl text-left">
           Hi! I'm Simon, currently studying Computer Science at McGill University. In my free time, 
           I enjoy building projects to discover and learn Web and Software Development. I am most
-          experienced with JavaScript/TypeScript, and also well versed with Java, C, and Python. Some of
+          experienced with JavaScript/TypeScript, and also well versed with Java, and Python. Some of
           my hobbies include the guitar, running, and weightlifting. Let's connect!
 
         </div>
